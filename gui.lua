@@ -18,6 +18,9 @@ function ShindoLife()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 end
 
+funcion KakashiGui()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Novik228/kakashihatkeshopgui/main/kakashigui.lua'))()
+
 local mod = main:Button("YBA", function()
 YBA()
 end)
@@ -34,5 +37,6 @@ local modddd = main:Button("Shindo Life", function()
 ShindoLife()
 end)
 
-
-    
+local moda = main:Button('Kakashi Gui', function()
+KakashiGui()
+end)
